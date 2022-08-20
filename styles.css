@@ -134,7 +134,7 @@ body{
 	position: absolute;
     bottom:0%;
     left:0%;
-    height: 20px;
+    height: 50px;
     background-color: #9c9ca1;
     content: '';
     border-radius: 50%;
@@ -142,7 +142,7 @@ body{
     animation: shadow_in 1.5s ease-in-out 1.5s 1 forwards;
 }
 .list .item_none .img::after{
-    animation: shadow_out 1.5s ease-out forwards;
+    animation: shadow_out 1.5s ease-in-out forwards;
 }
 @keyframes shadow_in {
 	from {
